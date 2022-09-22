@@ -1,3 +1,4 @@
 https://ttanesque.github.io/
 https://ttanesque.github.io/foaf.html
 https://ttanesque.github.io/foaf.rdf
+http://sixhills-consulting.com/foaf/agueritz/foaf.rdf
