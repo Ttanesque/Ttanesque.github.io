@@ -22,8 +22,8 @@
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:family_name"/></td>
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:nick"/></td>
         <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:mbox_sha1sum"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:homepage"/></td>
-        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage"/></td>
+        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></td>
+        <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage/@rdf:resource"/></td>
       </tr>
     </table>
   </body>
